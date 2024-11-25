@@ -1,8 +1,18 @@
 /* CSS Header */
+header div{
+    background-image: url(../img/12.avif);
+    height: 100px;
+    width: 100%;
+}
 h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
+}
+img{
+    display:flex;
+    
 }
 #nav{
     display:flex;
