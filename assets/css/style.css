@@ -31,5 +31,43 @@ a{
 
 /* Fin CSS Main */
 /* CSS Footer */
-
+/* intérieur footer disposition */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer ul li{
+    list-style: none;
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.picto ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* dimension image */
+.picto img{
+    width: 60px;
+    height: auto;
+}
+.insta img{
+    width: 80px;
+}
+.pinterest img{
+    width: 90px;
+}
+.youtube img{
+    width: 120px;
+    left: 1200px;
+}
+/* p center */
+footer p{
+    display: flex;
+    justify-content: center;
+}
 /* Fin CSS Footer */
